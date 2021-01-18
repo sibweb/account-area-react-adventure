@@ -6,7 +6,10 @@ const Dashboard = () => {
       <div className="column is-12">
         <div className="box content">
           <h1>
-            Hello <span>👋</span>
+            Hello{' '}
+            <span role="img" aria-label="hand waving">
+              👋
+            </span>
           </h1>
           <p>Here are some instructions to get you going :-)</p>
           <p>
@@ -39,7 +42,9 @@ const Dashboard = () => {
             <li>You can install any npm package</li>
             <li>
               Psst! Items can be bundled as variant or product groups{' '}
-              <span>😊</span>
+              <span role="img" aria-label="smiley face">
+                😊
+              </span>
             </li>
           </ul>
           <p>If you have any questions just drop us a message.</p>
