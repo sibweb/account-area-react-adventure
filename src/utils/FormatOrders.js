@@ -111,7 +111,6 @@ function formatItems(lineItems, currency) {
 
 export function format(result) {
   const results = result[0].orders;
-  console.log(results);
   const orders = results.map(order => {
     const {
       id,
